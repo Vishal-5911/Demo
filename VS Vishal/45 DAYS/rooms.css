@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav ul li a.active {
+    color: green;
+}
+
+.book-online {
+    background-color: #a1d64f;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.breadcrumb {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.breadcrumb h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.breadcrumb p {
+    color: #666;
+}
+
+.room-details {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+}
+
+.room-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.room-info {
+    flex: 1;
+}
+
+.room-info h2 {
+    font-size: 28px;
+}
+
+.room-info p {
+    margin: 15px 0;
+}
+
+.amenities {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    display: inline-block;
+    font-size: 24px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.price span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.more-details {
+    display: inline-block;
+    margin-top: 15px;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer {
+    background-color: #e9edf3;
+    padding: 20px 40px;
+    margin-top: 40px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-section,
+  .links-section,
+  .contact-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left:100px ;
+  }
+  
+  .about-section p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .links-section h3,
+  .contact-section h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .links-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .links-section ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .links-section ul li a:hover {
+    color: #007bff;
+  }
+  
+  .contact-section p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
